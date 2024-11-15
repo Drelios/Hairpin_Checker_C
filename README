@@ -4,13 +4,15 @@ This program has been made in order to check if your provided sequence has a hai
 
 
 ## Compilation
+
 To compile the code, run :
 
-```{bash}
+```
 make
 ```
 
 ## Execution
+
 To execute the program, use the following command:
 
 
@@ -18,13 +20,15 @@ To execute the program, use the following command:
 ./Hairpin_Checker <sequence_type> <fasta_file>
 ```
 
-- <sequence_type> can be either DNA or RNA
-- <fasta_file>: The path to your input FASTA file
+- `<sequence_type>` can be either DNA or RNA
+- `<fasta_file>`: The path to your input FASTA file
 
 ## Example
 
 A sample FASTA file is available in example.txt.
 
-```{bash}
+```
 ./Hairpin_Checker DNA example.txt
 ```
+
+Enjoy!
