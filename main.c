@@ -83,7 +83,6 @@ int main(int argc, char** argv) {
 
     // Free dynamically allocated memory
     free_matrix(result_matrix, n);
-    //free(type);
     free(sequence);
 
     return 0;
