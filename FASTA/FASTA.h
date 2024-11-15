@@ -1,0 +1,1 @@
+char* FromFasta(char * fichier);
